@@ -1,0 +1,5 @@
+# FührerscheinKompass — diese Seite SOLL gefunden werden.
+User-agent: *
+Allow: /
+
+Sitemap: https://fuehrerscheinkompass.de/sitemap-index.xml

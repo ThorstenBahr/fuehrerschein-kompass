@@ -1,0 +1,20 @@
+# HTTP-Header für Netlify / Cloudflare Pages.
+#
+# GO-LIVE 07.08.2026: X-Robots-Tag noindex ENTFERNT — die Seite darf ab jetzt
+# indexiert werden. Voraussetzung war der Gewerbebescheid (liegt vor: Handel
+# mit digitalen Produkten, E-Commerce, E-Books, Verlag, Onlinecoaching und
+# Veranstaltungen). Impressum braucht keine USt-Angabe, solange keine
+# USt-IdNr. erteilt ist.
+#
+# Falls die Seite je wieder aus dem Index soll: Zeile "X-Robots-Tag: noindex"
+# unter /* wieder einfügen.
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+
+# Gehashte Astro-Assets sind unveränderlich -> lange cachen.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
