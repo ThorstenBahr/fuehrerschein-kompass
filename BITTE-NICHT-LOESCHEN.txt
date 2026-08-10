@@ -1,0 +1,24 @@
+BITTE NICHTS AUS DIESEM ORDNER LOESCHEN
+=======================================
+
+Dieser Ordner wird 1:1 als Website veroeffentlicht
+(http://fuehrerschein-kompass.de).
+
+Diese drei Dateien sehen unwichtig aus, sind es aber NICHT:
+
+  CNAME                            -> sagt GitHub, welche Adresse gilt.
+                                      Fehlt sie, ist die Website unter
+                                      fuehrerschein-kompass.de tot.
+
+  .nojekyll                        -> ohne sie fehlt der Website das
+                                      komplette Design.
+
+  google6d6dddf91e0cd09e.html      -> Nachweis fuer Google, dass die
+                                      Website dir gehoert. Fehlt sie,
+                                      verlierst du den Zugang zur
+                                      Google Search Console.
+
+Erklaerung im Detail:
+E:\Claude Demo\docs\WICHTIG_WEBSITE_SCHUTZDATEIEN.pdf
+
+Stand: 10.08.2026
