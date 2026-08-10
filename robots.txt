@@ -1,5 +1,7 @@
 # FührerscheinKompass — diese Seite SOLL gefunden werden.
+# Domain MIT Bindestrich (fuehrerscheinkompass.de ohne Bindestrich gehört einem
+# Dritten) — korrigiert am 08.08.2026.
 User-agent: *
 Allow: /
 
-Sitemap: https://fuehrerscheinkompass.de/sitemap-index.xml
+Sitemap: https://fuehrerschein-kompass.de/sitemap-index.xml
